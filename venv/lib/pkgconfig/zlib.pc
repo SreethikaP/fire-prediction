@@ -1,0 +1,13 @@
+prefix=/Users/sreethikapadala/Desktop/Python/python/end to project/venv
+exec_prefix=/Users/sreethikapadala/Desktop/Python/python/end to project/venv
+libdir=/Users/sreethikapadala/Desktop/Python/python/end to project/venv/lib
+sharedlibdir=/Users/sreethikapadala/Desktop/Python/python/end to project/venv/lib
+includedir=/Users/sreethikapadala/Desktop/Python/python/end to project/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
